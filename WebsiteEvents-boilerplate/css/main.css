@@ -135,7 +135,7 @@ body
     }
 }
 
-@media only screen and (min-width:992px;)
+@media only screen and (min-width:992px)
 {
     .contenedor
     {
@@ -581,13 +581,13 @@ div.invitado img{
     max-width: 100%;
     filter: gray;
     /** Prefijo, le agrega estilo especificos a ese navegador (moz) **/
-    -webkit-filter: grayscale(1);
-    -webkit-transition: all .5s ease-in-out;
+    filter: grayscale(1);
+    transition: all .5s ease-in-out;
 }
 
 div.invitado:hover img{
-    -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.1);
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 div.invitado p{
@@ -603,7 +603,7 @@ div.invitado p{
     color: #fe4918;
     text-transform: uppercase;
     font-size: 1.4em;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 div.invitado:hover p{
@@ -613,17 +613,61 @@ div.invitado:hover p{
 
 
 /** Contador **/
-
-div.fondo img{
+.parallax::before{
     width: 100%;
-    position: relative;
+    height: 100%;
+    position: absolute;
+    top: 495px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    filter: brightness(.8);
 }
 
-div.contenedor ul li{
-    position: absolute;
-    left: 0;
-    bottom: 0;
+div.contador{
+    position: relative;
+    height: auto;
+}
 
+div.contador::before{
+    background-image: url(../img/bg-resumen.jpg);
+    content: '';
+}
+
+ul.resumen-evento{
+    position: relative;
+    padding: 120px 0;
+}
+
+ul.resumen-evento li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+@media only screen and (min-width: 768px){
+
+    ul.resumen-evento li{
+        width: 25%;
+    }
+    .parallax::before{
+        top: 470px;
+
+    }
+} 
+
+p.numero{
+    color: #fe4918;
+    font-size: 3em;
+    display: block;
+    margin: 0 0 10px 0;
 }
 
 
