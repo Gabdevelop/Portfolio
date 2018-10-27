@@ -1190,10 +1190,71 @@ p.numero{
     display: block;
     margin: 0 0 10px 0;
     font-family: 'Oswald', sans-serif;
+} 
 
-} */
+ul.lista-precios > li{
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px){
+
+    ul.lista-precios > li{
+     float: left;
+     width: 33.3%;
+    }
+}
+
+div.tabla-precio{
+   border: 1px solid #e1e1e1;
+   background-color: #ffff;
+   padding: 40px;
+   text-align: center;
+   transition: all .3s ease;
+}
+
+div.tabla-precio:hover{
+    transform: scale(1.1);
+    border: 1px solid #fe4818;
+    box-shadow: 0px 0px 50px #666;
+}
+
+div.tabla-precio ul li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #868686;
+    line-height: 26px;
+}
+
+div.tabla-precio ul li::before{
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 20px;
+    color: green;
+    -webkit-font-smoothing: antialiased;
+    content: '\f00c';
+}
+
+div.tabla-precio h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+div.tabla-precio p.numero{
+    color: black;
+    margin-top: 20px 0;
+    font-weight: bold;
+}
 
 
+div.mapa 
+{
+    height: 420px;
+    background: red;;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
