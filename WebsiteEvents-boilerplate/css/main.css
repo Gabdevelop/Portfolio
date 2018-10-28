@@ -1505,8 +1505,8 @@ footer .contenedor > div{
 }
 .cuadrados li:nth-child(6) {
     left: 80%;
-    width: 120px;
-    height: 120px;
+    width: 55px;
+    height: 55px;
     -webkit-animation-delay: 3s;
     -moz-animation-delay: 3s;
     animation-delay: 3s;
@@ -1545,8 +1545,8 @@ footer .contenedor > div{
 }
 .cuadrados li:nth-child(10) {
     left: 90%;
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     -webkit-animation-delay: 11s;
     -moz-animation-delay: 11s;
     animation-delay: 11s;
