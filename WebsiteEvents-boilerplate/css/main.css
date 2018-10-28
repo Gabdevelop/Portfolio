@@ -295,6 +295,17 @@ p.slogan span {
     font-weight: bold;
 }
 
+p.slogan span a{
+    color: #fe4918;
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+p.slogan span a:hover{
+    color: white;
+}
+
+
 /** Contenedor **/
 .contenedor {
     width: 95px;
@@ -546,6 +557,10 @@ div.detalle-evento p {
     color: #fe4918;
 }
 
+.button.transparante{
+    background-color: transparent;
+}
+
 .float-right {
     float: right;
 }
@@ -610,30 +625,20 @@ div.invitado:hover p {
     bottom: -80px;
     opacity: 0;
 }
-
+/* 
 .paralax::before {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     filter: brightness(.8);
-}
+} */
 
 
-div.contador {
-    position: relative;
-    height: auto;
-}
-
-div.contador::before {
-    background-image: url(../img/bg-resumen.jpg);
-    content: '';
-}
 
 ul.resumen-evento {
     position: relative;
@@ -874,7 +879,7 @@ h1.nombre-sitio
     text-transform: uppercase;
 }
 
-p.slogan
+/* p.slogan
 {
     text-transform: none!important;
 }
@@ -882,7 +887,7 @@ p.slogan
 p.slogan span
 {
     font-weight: bold;
-}
+} */
 
 /** Barra **/
 div.barra
@@ -1142,7 +1147,7 @@ div.invitado:hover p{
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1330,6 +1335,103 @@ footer.info-testimonial cite span{
  margin-bottom: 20px;
 }
 
+
+/** Newsletter **/]
+
+div.newsletter{
+    position: relative;
+    height: auto;
+}
+
+div.newsletter::before{
+    background-image: url(../img/bg-newsletter.jpg);
+    content: '';
+}
+
+div.newsletter .contenido{
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+div.newsletter .contenido p{
+    font-size: 1.2em;
+    text-transform: lowercase;
+}
+
+div.newsletter .contenido h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/** Cuenta regeresiva **/
+
+div.cuenta-regresiva ul li{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px){
+
+    div.cuenta-regresiva ul li{
+        float: left;
+        width: 25%;
+    }
+
+}
+
+.seccion2{
+    height: 600px;
+}
+
+@media only screen and (min-width: 768px){
+    .seccion2{
+        height: 400px;
+    }
+}
+
+/** Fotter **/
+
+.site-footer{
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+footer .contenedor > div{
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+    text-align-last: justify;
+}
+
+@media only screen and (min-width: 768px){
+    footer .contenedor > div{
+        width: 33.3%;
+        float: left;
+    }
+}
+
+
+.nueva-edicion1{
+    font-size: 46px!important;
+    margin: 18px 0 0 79px;
+    color: white;
+}
+
+.nueva-edicion2{
+    font-size: 42px!important;
+    margin: 18px 88px 0 0;
+    color: white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
