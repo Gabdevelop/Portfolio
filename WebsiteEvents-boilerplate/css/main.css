@@ -198,14 +198,14 @@ h1.nombre-sitio span {
     text-shadow: 0 0 30px #000000;
 }
 
-@media only screen and (min-width:28px) {
+/* @media only screen and (min-width:28px) {
     .char1 { /** Estas clases vienen dadas del plugin lettering de jQuery **/
-        top: 20px;
+/*        top: 20px;
     }
     .char10 {
         top: 20px;
     }
-}
+} */
 
 /* * Header *
 div.hero {
@@ -242,6 +242,10 @@ nav.redes-sociales a:last-child {
 div.informacion-evento {
     text-align: center;
     color: #ffffff;
+}
+
+p.fecha, p.ciudad{
+    text-align: center;
 }
 
 @media only screen and (min-width:768px){
@@ -312,7 +316,7 @@ p.slogan span a:hover{
     margin: 0 auto;
 }
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:300px) {
     .contenedor {
         width: 95%;
     }
@@ -855,7 +859,7 @@ div.informacion-evento p i
     color: #2da5d3;
 }
 
-@media only screen and (min-width: 320px)
+@media only screen and (min-width: 620px)
 {
 
     div.informacion-evento p i
