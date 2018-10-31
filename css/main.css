@@ -886,6 +886,12 @@ div.logo img
 }
 
 /** Navegacion Principal **/
+
+.barra{
+  position: relative;
+  width: 100%;
+}
+
 nav.navegacion-principal{
     display: none;
     width: 50%;
