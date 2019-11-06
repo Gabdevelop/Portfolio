@@ -19,3 +19,8 @@ function main(){
         }
   });
 };
+
+$(document).ready(function() {
+    $("a").click(function() {
+      $("html, body").animate({scrollTop: $("#comenzar").offset().top}, 2000);});
+  });
