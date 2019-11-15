@@ -61,18 +61,18 @@ html {
 }
 
 ::selection {
-    background-color: #1abc9c;
+    background-color: #1a89bc;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #1abc9c;
+    background-color: #1a89bc;
     color: #ffffff;
 }
 
 a {
     text-decoration: none !important;
-    color: #1abc9c;
+    color: #1a89bc;
 }
 
 a:hover,
@@ -106,7 +106,7 @@ button {
 }
 
 .main-color {
-    color: #1abc9c;
+    color: #1a89bc;
 }
 
 .page-body {
@@ -187,7 +187,7 @@ button {
 }
 
 .button-style {
-    color: #1abc9c;
+    color: #1a89bc;
     overflow: hidden;
 }
 
@@ -195,14 +195,14 @@ button {
     position: absolute;
     font-size: 27px;
     line-height: 38px;
-    color: #1abc9c;
+    color: #1a89bc;
    -webkit-transition: all 0.3s;
    -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 .button-style:active:before {
-    color: #1abc9c;
+    color: #1a89bc;
 }
 
 .button-anim:before {
@@ -239,7 +239,7 @@ button {
     margin: -26px 0 0 -26px;
     font-size: 10px;
     border-right: 5px solid #333333;
-    border-left: 5px solid #1abc9c;
+    border-left: 5px solid #1a89bc;
     border-radius: 50%;
     -webkit-animation: spinner 700ms infinite linear;
     animation: spinner 700ms infinite linear;
@@ -278,7 +278,7 @@ button {
     top: 0px;
     font-size: 20px;
     color: #fff;
-    background: #1abc9c;
+    background: #1a89bc;
     padding: 12px;
 }
 
@@ -313,7 +313,7 @@ button {
 }
 
 .menu-link li a:hover {
-    color: #1abc9c;
+    color: #1a89bc;
 }
 
 
@@ -532,7 +532,7 @@ tr > td:nth-child(2) {
 }
 
 .form-control:focus {
-    border-color: #1abc9c;
+    border-color: #1a89bc;
     border-width: 2px;
 }
 
@@ -665,7 +665,7 @@ div.blog-post {
     content: '\e071';
     font-family: 'simple-line-icons';
     display: block;
-    color: #1abc9c;
+    color: #1a89bc;
     font-size: 65px;
     font-weight: 600;
     z-index: 1;
@@ -710,7 +710,7 @@ div.blog-post {
 /* Blockquote */
 
 .post-quote {
-    background: #1abc9c;
+    background: #1a89bc;
     color: #f6f8f8;
     width: 70%;
     border-radius: 50px;
@@ -743,7 +743,7 @@ div.blog-post {
 
 blockquote {
     font-style: italic;
-    border-left: 5px solid #1abc9c;
+    border-left: 5px solid #1a89bc;
 }
 
 
@@ -804,7 +804,7 @@ blockquote {
 }
 
 .endpage-box a:hover {
-    color: #1abc9c;
+    color: #1a89bc;
 }
 
 #endpage-box {
@@ -852,7 +852,7 @@ blockquote {
     font-size: 25px;
     line-height: 35px;
     font-weight: 600;
-    color: #1abc9c;
+    color: #1a89bc;
     margin-bottom: 25px;
     letter-spacing: 0.5px;
 }
@@ -862,7 +862,7 @@ blockquote {
     line-height: 28px;
     padding: 20px;
     border-radius: 4px;
-    border: 1px dashed #1abc9c;
+    border: 1px dashed #1a89bc;
     font-weight: 400;
 }
 	
@@ -878,7 +878,7 @@ blockquote {
     font-size: 25px;
     line-height: 35px;
     font-weight: 600;
-    color: #1abc9c;
+    color: #1a89bc;
     margin-bottom: 35px;
     letter-spacing: 0.5px;
 }
@@ -891,7 +891,7 @@ blockquote {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 2px dashed #1abc9c;
+    border: 2px dashed #1a89bc;
     line-height: 90px;
     display: block;
     font-size: 16px;
@@ -902,7 +902,7 @@ blockquote {
 }
 
 .load-more-button:hover {
-    background-color: #1abc9c;
+    background-color: #1a89bc;
     color: #ffffff;
     box-shadow: 0px 7px 9px #696969;
 }
@@ -911,7 +911,7 @@ blockquote {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 2px dashed #1abc9c;
+    border: 2px dashed #1a89bc;
     line-height: 90px;
     display: block;
     font-size: 16px;
@@ -941,7 +941,7 @@ blockquote {
 .subscribe-form .text-input {
 	padding: 20px;
 	border-radius: 50px;
-	border: solid 7px #1abc9c;
+	border: solid 7px #1a89bc;
 	background: #333333;
 	color: #ffffff;
 	width: 100%;
@@ -990,7 +990,7 @@ blockquote {
 	font-size: 16px;
 	letter-spacing: 0.7px;
 	color: #FFF;
-	background: #1abc9c;
+	background: #1a89bc;
 	border: none;
 	top: 5px;
 	right: 5px;
@@ -1079,6 +1079,8 @@ blockquote {
    background-color: #3b5998;
 }
 
+ 
+ 
 .twitter {
    background-color: #1da1f2;
 }
@@ -1088,7 +1090,7 @@ blockquote {
 }
 
 .instagram {
-   background-color: #464545;
+   background-color: #e95950;
 }
 
 .linkedin {
@@ -1115,24 +1117,12 @@ blockquote {
    background-color: #1769ff;
 }
 
-.flickr {
-   background-color: #ff0084;
-}
-
-.tumblr {
-   background-color: #35465c;
-}
-
 .foursquare {
    background-color: #f94877;
 }
 
 .github {
    background-color: #333333;
-}
-
-.skype {
-   background-color: #00aff0;
 }
 
 
@@ -1154,7 +1144,7 @@ blockquote {
 .scroll-to-top {
     display: none;
     font-size: 40px;
-    color: #1abc9c;
+    color: #1a89bc;
     position: fixed;
     right: 20px;
     bottom: 50px;
@@ -1794,7 +1784,7 @@ blockquote {
 }
 
 .uipasta-credit a {
-    color: #1abc9c;
+    color: #1a89bc;
     font-weight: 600;
 }
 
